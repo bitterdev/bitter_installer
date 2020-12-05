@@ -142,7 +142,7 @@ def is_marketplace_cli_installed():
 
 def install_marketplace_cli():
 	# download marketplace_cli
-	download_file("https://www.bitter.de/downloads/marketplace_cli.zip", base_dir + "/marketplace_cli.zip")
+	download_file("https://github.com/bitterdev/marketplace_cli/releases/download/1.0/marketplace_cli.zip", base_dir + "/marketplace_cli.zip")
 
 	# unzip marketplace_cli
 	zip_ref = zipfile.ZipFile(base_dir + "/marketplace_cli.zip", 'r')
